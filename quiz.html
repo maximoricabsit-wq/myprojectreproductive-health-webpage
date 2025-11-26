@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Quiz — Group 2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body  class="quiz">
+<header class="site-header">
+  <div class="container">
+    <h1>Quiz — Male & Female Reproductive Anatomy and Function</h1>
+    <nav>
+  <a href="index.html">Home</a>
+  <a href="anatomy.html">Anatomy & Function</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="survey.html">Survey</a>
+  <a href="about.html">About</a>
+</nav>
+  </div>
+</header>
+
+<main class="container">
+  <img src="image/quiz-bg.png" alt="Quiz Background Image" width="100%">
+  <form id="quizForm">
+    <ol>
+      <li>
+        <p>Which organ produces sperm?</p>
+        <label><input type="radio" name="q1" value="A"> A. Prostate</label><br>
+        <label><input type="radio" name="q1" value="B"> B. Testes</label><br>
+        <label><input type="radio" name="q1" value="C"> C. Epididymis</label><br>
+        <label><input type="radio" name="q1" value="D"> D. Urethra</label>
+      </li>
+
+      <li>
+        <p>True or False: The ovaries release one mature egg each menstrual cycle.</p>
+        <label><input type="radio" name="q2" value="True"> True</label><br>
+        <label><input type="radio" name="q2" value="False"> False</label>
+      </li>
+
+      <li>
+        <p>Where does fertilization most commonly occur?</p>
+        <label><input type="radio" name="q3" value="A"> A. Uterus</label><br>
+        <label><input type="radio" name="q3" value="B"> B. Vagina</label><br>
+        <label><input type="radio" name="q3" value="C"> C. Fallopian tube</label><br>
+        <label><input type="radio" name="q3" value="D"> D. Ovary</label>
+      </li>
+
+      <li>
+        <p>Multiple choice: The hormone primarily responsible for male secondary sexual characteristics is:</p>
+        <label><input type="radio" name="q4" value="A"> A. Estrogen</label><br>
+        <label><input type="radio" name="q4" value="B"> B. Progesterone</label><br>
+        <label><input type="radio" name="q4" value="C"> C. Testosterone</label><br>
+        <label><input type="radio" name="q4" value="D"> D. Follicle Stimulating Hormone</label>
+      </li>
+
+      <li>
+        <p>Short answer: Name the lining of the uterus that thickens during the menstrual cycle.</p>
+        <input type="text" name="q5">
+      </li>
+
+      <li>
+        <p>True or False: Seminal vesicles contribute fluid that nourishes sperm.</p>
+        <label><input type="radio" name="q6" value="True"> True</label><br>
+        <label><input type="radio" name="q6" value="False"> False</label>
+      </li>
+
+      <li>
+        <p>Multiple choice: Which structure stores sperm until it matures?</p>
+        <label><input type="radio" name="q7" value="A"> A. Vas deferens</label><br>
+        <label><input type="radio" name="q7" value="B"> B. Seminal vesicle</label><br>
+        <label><input type="radio" name="q7" value="C"> C. Epididymis</label><br>
+        <label><input type="radio" name="q7" value="D"> D. Prostate</label>
+      </li>
+
+      <li>
+        <p>Short answer: What is the medical term for childbirth?</p>
+        <input type="text" name="q8">
+      </li>
+
+      <li>
+        <p>Multiple choice: Which part of the female reproductive system connects the uterus to the vagina?</p>
+        <label><input type="radio" name="q9" value="A"> A. Cervix</label><br>
+        <label><input type="radio" name="q9" value="B"> B. Fallopian tube</label><br>
+        <label><input type="radio" name="q9" value="C"> C. Ovary</label><br>
+        <label><input type="radio" name="q9" value="D"> D. Vulva</label>
+      </li>
+
+      <li>
+        <p>True or False: Ovulation usually happens around the middle of the menstrual cycle.</p>
+        <label><input type="radio" name="q10" value="True"> True</label><br>
+        <label><input type="radio" name="q10" value="False"> False</label>
+      </li>
+
+    </ol>
+
+    <button type="button" id="submitQuiz">Submit</button>
+  </form>
+
+  <div id="quizResult" class="result" aria-live="polite"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Quiz — Group 2</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
